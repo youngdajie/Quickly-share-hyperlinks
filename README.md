@@ -17,15 +17,13 @@
 
 ## 📂 项目结构
 ```
-src
-├── App.vue
-├── main.js
-├── siteConfig.js
-└── style.css
-public
-└── favicon.ico
-index.html
-vite.config.js
+src/
+├── config/
+│ └── siteConfig.js # ← 所有内容在此配置（标题/链接/社交等）
+├── App.vue # 主组件（含样式与逻辑）
+└── main.js # 应用入口
+public/
+└── index.html # 引入 Font Awesome CDN
 ```
 
 
